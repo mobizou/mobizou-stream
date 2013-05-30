@@ -9,8 +9,8 @@ class Mobizou_Stream_Widget extends WP_Widget {
 	public function __construct() {
 		parent::__construct(
 	 		'mobizou_stream', // Base ID
-			'Mobizou_Stream_Widget', // Name
-			array( 'description' => "Mobizou Stream" ) // Args
+			'Mobizou Stream', // Name
+			array( 'description' => "Publish Mobizou stream on your website!" ) // Args
 		);
 	}  
     public function update( $new_instance, $old_instance ) {        
