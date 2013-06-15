@@ -77,7 +77,7 @@ class Mobizou_Stream_Widget extends WP_Widget {
         }
         echo $after_widget;
         
-        wp_register_script('mobizou-stream', 'http://beta.mobizou.com/js/widget.js', array(), '1.0',true);
+        wp_register_script('mobizou-stream', 'https://merchant.mobizou.com/js/widget.js', array(), '1.0',true);
         wp_enqueue_script('mobizou-stream');
     }
   
